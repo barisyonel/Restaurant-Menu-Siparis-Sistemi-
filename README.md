@@ -3,7 +3,7 @@
 Next.js ile geliştirilmiş modern ve dinamik bir **restoran menü sipariş uygulaması**.  
 Bu proje sayesinde kullanıcılar menüden sipariş verebilir, siparişlerini onaylayarak mutfağa gönderebilir ve sipariş durumlarını takip edebilir.
 
-![Proje Görseli](./public/images/screenshot.png) <!-- Buraya proje ekran görüntüsü ekleyebilirsin -->
+![Proje Görseli](./public/images/screenshott.png) <!-- Buraya proje ekran görüntüsü ekleyebilirsin -->
 
 ---
 
