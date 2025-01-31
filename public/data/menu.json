@@ -1,0 +1,164 @@
+{
+	"menu": [
+		{
+			"category": "Çorbalar",
+			"items": [
+				{
+					"id": 1,
+					"name": "Mercimek Çorbası",
+					"description": "Kırmızı mercimekten yapılan nefis çorba.",
+					"price": 50,
+					"image": "/images/mercimek.jpg"
+				},
+				{
+					"id": 2,
+					"name": "Ezogelin Çorbası",
+					"description": "Bol baharatlı, besleyici çorba.",
+					"price": 55,
+					"image": "/images/ezogelin.jpg"
+				},
+				{
+					"id": 3,
+					"name": "Tarhana Çorbası",
+					"description": "Doğal tarhana ile yapılan geleneksel çorba.",
+					"price": 60,
+					"image": "/images/tarhana.jpg"
+				},
+				{
+					"id": 4,
+					"name": "Tavuk Suyu Çorbası",
+					"description": "Ev yapımı tavuk suyu ile hazırlanan çorba.",
+					"price": 65,
+					"image": "/images/tavuk-suyu.jpg"
+				}
+			]
+		},
+		{
+			"category": "Ana Yemekler",
+			"items": [
+				{
+					"id": 5,
+					"name": "Adana Kebap",
+					"description": "Acılı kıyma kebabı, közlenmiş biber ve domates ile servis edilir.",
+					"price": 150,
+					"image": "/images/adana-kebap.jpg"
+				},
+				{
+					"id": 6,
+					"name": "Tavuk Şiş",
+					"description": "Izgarada pişmiş, özel soslu tavuk şiş.",
+					"price": 120,
+					"image": "/images/tavuk-sis.jpg"
+				},
+				{
+					"id": 7,
+					"name": "Izgara Balık",
+					"description": "Izgara levrek, roka ve limon ile servis edilir.",
+					"price": 180,
+					"image": "/images/izgara-balik.jpg"
+				},
+				{
+					"id": 8,
+					"name": "Karnıyarık",
+					"description": "Kıymalı iç harçla doldurulmuş patlıcan yemeği.",
+					"price": 140,
+					"image": "/images/karniyarik.jpg"
+				},
+				{
+					"id": 9,
+					"name": "Lahmacun",
+					"description": "İnce hamur üzerine baharatlı kıyma harcıyla hazırlanır.",
+					"price": 60,
+					"image": "/images/lahmacun.jpg"
+				},
+				{
+					"id": 10,
+					"name": "Mantı",
+					"description": "Yoğurt ve tereyağı sosuyla servis edilen el açması mantı.",
+					"price": 100,
+					"image": "/images/manti.jpg"
+				}
+			]
+		},
+		{
+			"category": "Tatlılar",
+			"items": [
+				{
+					"id": 11,
+					"name": "Baklava",
+					"description": "Antep fıstıklı ve şerbetli geleneksel tatlı.",
+					"price": 90,
+					"image": "/images/baklava.jpg"
+				},
+				{
+					"id": 12,
+					"name": "Sütlaç",
+					"description": "Fırında pişirilmiş hafif sütlü tatlı.",
+					"price": 70,
+					"image": "/images/sutlac.jpg"
+				},
+				{
+					"id": 13,
+					"name": "Kazandibi",
+					"description": "Yanık karamelize üst katmanı ile lezzetli sütlü tatlı.",
+					"price": 75,
+					"image": "/images/kazandibi.jpg"
+				},
+				{
+					"id": 14,
+					"name": "Trileçe",
+					"description": "Üç farklı sütle hazırlanan yumuşak kek tatlısı.",
+					"price": 80,
+					"image": "/images/trilece.jpg"
+				},
+				{
+					"id": 15,
+					"name": "Profiterol",
+					"description": "Çikolata soslu, içi krema dolgulu tatlı topları.",
+					"price": 85,
+					"image": "/images/profiterol.jpg"
+				}
+			]
+		},
+		{
+			"category": "İçecekler",
+			"items": [
+				{
+					"id": 16,
+					"name": "Türk Kahvesi",
+					"description": "Köpüklü Türk kahvesi, lokum ile servis edilir.",
+					"price": 40,
+					"image": "/images/turk-kahvesi.jpg"
+				},
+				{
+					"id": 17,
+					"name": "Ayran",
+					"description": "Soğuk ve ferahlatıcı yoğurt içeceği.",
+					"price": 30,
+					"image": "/images/ayran.jpg"
+				},
+				{
+					"id": 18,
+					"name": "Limonata",
+					"description": "Ev yapımı limonata, nane ile servis edilir.",
+					"price": 50,
+					"image": "/images/limonata.jpg"
+				},
+				{
+					"id": 19,
+					"name": "Şalgam Suyu",
+					"description": "Acılı veya sade doğal şalgam suyu.",
+					"price": 35,
+					"image": "/images/salgam.jpg"
+				},
+				{
+					"id": 20,
+					"name": "Meyve Kokteyli",
+					"description": "Taze meyvelerden hazırlanan vitamin deposu içecek.",
+					"price": 70,
+					"image": "/images/meyve-kokteyli.jpg"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #222;
+	padding: 15px;
+  }
+  
+  .navbar h1 {
+	color: white;
+  }
+  
+  .links {
+	display: flex;
+	gap: 15px;
+  }
+  
+  .links a {
+	text-decoration: none;
+	color: white;
+	padding: 10px 15px;
+	background-color: #444;
+	border-radius: 5px;
+	transition: 0.3s;
+  }
+  
+  .links a:hover {
+	background-color: #666;
+  }
+  

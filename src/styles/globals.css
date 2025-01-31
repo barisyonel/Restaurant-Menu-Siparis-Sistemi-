@@ -1,0 +1,103 @@
+/* 📌 Genel Resetleme */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  /* 📌 Footer'ın sayfanın en altında durmasını sağlayan kod */
+html, body {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+  }
+  
+  .content {
+	flex: 1;
+  }
+  
+
+  /* 📌 Navbar Genel Stil */
+  .navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #222;
+	padding: 15px;
+	border-radius: 5px;
+  }
+  
+  .navbar h1 {
+	color: white;
+	font-size: 24px;
+  }
+  
+  .links {
+	display: flex;
+	gap: 15px;
+  }
+  
+  .links a {
+	text-decoration: none;
+	color: white;
+	padding: 10px 15px;
+	background-color: #444;
+	border-radius: 5px;
+	transition: 0.3s;
+  }
+  
+  .links a:hover {
+	background-color: #666;
+  }
+  
+  /* 📌 Butonlar */
+  button {
+	padding: 10px;
+	background-color: #007bff;
+	border: none;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background 0.3s;
+  }
+  
+  button:hover {
+	background-color: #0056b3;
+  }
+  
+  /* 📌 Mobil Uyum */
+  @media screen and (max-width: 768px) {
+	/* Navbar Mobil Uyum */
+	.navbar {
+	  flex-direction: column;
+	  align-items: center;
+	  text-align: center;
+	}
+  
+	.links {
+	  flex-direction: column;
+	  width: 100%;
+	}
+  
+	.links a {
+	  width: 100%;
+	  text-align: center;
+	}
+  
+	/* Sayfa İçeriği Mobil */
+	body {
+	  padding: 10px;
+	}
+  
+	/* Başlıklar Küçültüldü */
+	h1, h2, h3 {
+	  font-size: 90%;
+	}
+  
+	/* Butonlar Daha Büyük */
+	button {
+	  width: 100%;
+	  padding: 12px;
+	  font-size: 18px;
+	}
+  }
+  

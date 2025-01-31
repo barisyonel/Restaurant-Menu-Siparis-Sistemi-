@@ -1,0 +1,119 @@
+/* 📌 Menü Konteyner */
+.menuContainer {
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 20px;
+	background: #f4e1c1; /* Hafif ahşap tonu */
+	border-radius: 10px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+	border: 2px solid #a67c52; /* Ahşap çerçeve */
+  }
+  
+  /* 📌 Menü Başlığı */
+  .menuTitle {
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	font-family: 'Georgia', serif;
+	color: #5a3825;
+	margin-bottom: 20px;
+  }
+  
+  /* 📌 Kategori Başlığı */
+  .categoryTitle {
+	font-size: 24px;
+	font-family: 'Georgia', serif;
+	color: #5a3825;
+	border-bottom: 2px solid #a67c52;
+	padding-bottom: 5px;
+	margin-top: 15px;
+  }
+  
+  /* 📌 Menü Listesi */
+  .menuList {
+	list-style: none;
+	padding: 0;
+  }
+  
+  /* 📌 Menü Öğesi */
+  .menuItem {
+	display: flex;
+	align-items: center;
+	background: #fff;
+	padding: 15px;
+	margin: 10px 0;
+	border-radius: 8px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	border-left: 5px solid #a67c52;
+  }
+  
+  /* 📌 Yemek Resmi */
+  .itemImage {
+	width: 100px;
+	height: 100px;
+	border-radius: 8px;
+	object-fit: cover;
+	margin-right: 15px;
+  }
+  
+  /* 📌 Yemek Detayları */
+  .itemDetails {
+	flex: 1;
+  }
+  
+  /* 📌 Yemek Adı */
+  .itemName {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Georgia', serif;
+	color: #5a3825;
+	margin-bottom: 5px;
+  }
+  
+  /* 📌 Yemek Açıklaması */
+  .itemDescription {
+	font-size: 14px;
+	color: #5a3825;
+	opacity: 0.8;
+	margin-bottom: 8px;
+  }
+  
+  /* 📌 Yemek Fiyatı */
+  .itemPrice {
+	font-size: 18px;
+	font-weight: bold;
+	color: #a67c52;
+  }
+  
+  /* 📌 Sipariş Ver Butonu */
+  .orderButton {
+	display: inline-block;
+	background-color: #a67c52;
+	color: white;
+	padding: 8px 15px;
+	font-size: 16px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-left: 10px;
+	transition: background 0.3s ease;
+  }
+  
+  .orderButton:hover {
+	background-color: #8b5e3b;
+  }
+  .orderConfirmed {
+	font-size: 14px;
+	color: green;
+	font-weight: bold;
+	animation: fadeInOut 3s ease-in-out;
+	margin: 15px;
+  }
+/* 📌 Fade In-Out Animasyonu */
+@keyframes fadeInOut {
+	0% { opacity: 0; }
+	10% { opacity: 1; }
+	90% { opacity: 1; }
+	100% { opacity: 0; }
+  }
+  
